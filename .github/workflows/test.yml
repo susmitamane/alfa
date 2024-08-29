@@ -116,7 +116,7 @@ jobs:
           uname -a
           sudo cat /etc/sudoers.d/runner
           sudo echo hi
-          sudo -v
+          sudo -n -v
       # - uses: actions/download-artifact@v4
       #   with:
       #     merge-multiple: true
